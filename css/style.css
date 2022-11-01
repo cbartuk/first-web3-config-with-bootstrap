@@ -305,6 +305,7 @@ ul.btn li:last-child {
   float: none;
   margin: 0 auto;
   display: flex;
+  transition: 5ms;
 }
 
 .navigation.navbar-dark .navbar-nav .active > .nav-link,
