@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+  <!-- site metas -->
+  <title>chaindist</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="SenatorMaul">
+
+  <!-- connect wallet case -->
+  <title>Connect to crypto wallet</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
+  <link rel="stylesheet" href="js/main.js">
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+    media="screen">
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+  <!-- For Login Page-->
+  <title>Signin Template · Bootstrap v5.2</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+  <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#712cf9">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="signin.css" rel="stylesheet">
+</head>
+
+<!-- body -->
+
+<body class="main-layout">
+  <div class="text-center">
+    <main class="form-signin w-100 m-auto">
+      <form>
+        <img class="mb-4" src="./images/logo.png" alt="">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">© 2017–2022</p>
+      </form>
+    </main>
+  </div>
+  <!--  footer -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <a class="logo2" href="index.html"><img src="images/loogo2.png" alt="#" /></a>
+            <div class="follow">
+              <p>reader will be distracted by the readable content of a page when looking at its layout. The
+                point of using Lorem Ipsum is that it has a more-or-less normal di</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h3>Quick link</h3>
+            <ul class="link_icon">
+              <li class="active"> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="index.html"></i>Home</a></li>
+              <li> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="blog"></i>About </a></li>
+              <li> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="contact"></i>Currency</a></li>
+              <li> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="blog"></i>Exchange</a></li>
+              <li> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="contact"></i>Subscribe</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h3>Socials </h3>
+            <div class="follow">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+              <ul class="social_icon">
+                <li> <a href="https://github.com/cbartuk"><i class="fa fa-github"></i></a></li>
+                <li> <a href="https://twitter.com/SenatorMaul"><i class="fa fa-twitter"></i></a></li>
+                <li> <a href="https://www.linkedin.com/in/cbartuk/"> <i class="fa fa-linkedin"
+                      aria-hidden="true"></i></a></li>
+                <li> <a href="https://www.instagram.com/cbartuk/"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <h3>Contact us</h3>
+            <ul class="location_icon">
+              <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>Istanbul / Zincirlikuyu<br>
+                go view on map
+              </li>
+              <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>canbartuklc@gmail.com</li>
+              <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>+90534 4444444
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1">
+              <p>Copyright 2022 All Right Reserved By<a href="https://twitter.com/SenatorMaul"> SenatorMaul</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <!-- Javascript files-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <!-- sidebar -->
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- Connect Wallet -->
+  <script>
+    /* To connect using MetaMask */
+    async function connect() {
+      if (window.ethereum) {
+        await window.ethereum.request({ method: "eth_requestAccounts" });
+        window.web3 = new Web3(window.ethereum);
+        const account = web3.eth.accounts;
+        //Get the current MetaMask selected/active wallet
+        const walletAddress = account.givenProvider.selectedAddress;
+        console.log(`Wallet: ${walletAddress}`);
+
+      } else {
+        console.log("No wallet");
+      }
+    }
+  </script>
+</body>
+
+</html>
