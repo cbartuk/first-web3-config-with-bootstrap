@@ -329,6 +329,7 @@ ul.btn li:last-child {
   float: none;
   margin: 0 auto;
   display: flex;
+  transition: 0.5ms;
 }
 
 .navbar-expand-md .navbar-nav {
